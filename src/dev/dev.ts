@@ -15,7 +15,7 @@ export default class Dev {
 
       var config = {
         method: 'post',
-        url: 'http://localhost:3000/sdk/dev',
+        url: 'http://15.206.72.164/sdk/dev',
         headers: { 
           'api-key': this.apiKey, 
           ...data.getHeaders()
@@ -36,7 +36,7 @@ export default class Dev {
       }
       var config = {
         method: 'post',
-        url: 'http://localhost:3000/sdk/dev/pinJson',
+        url: 'http://15.206.72.164/sdk/dev/pinJson',
         headers: { 
           'api-key': this.apiKey, 
         },
@@ -52,7 +52,7 @@ export default class Dev {
     public async getJson(cid: string){
       var config = {
         method: 'get',
-        url: 'http://localhost:3000/sdk/dev/get/json/'+cid,
+        url: 'http://15.206.72.164/sdk/dev/get/json/'+cid,
         headers: {
           'api-key': this.apiKey,
         }

@@ -2,7 +2,7 @@ import Dev from "../dev/dev";
 import Rental from "../rental/rental";
 import axios from 'axios';
 
-export default class Flux {
+export default class RentHub {
     private apiKey: string;
     public rental: Rental;
     public dev: Dev;
@@ -18,7 +18,7 @@ export default class Flux {
     public async verifyKey(apiKey: string): Promise<any> {
         var config = {
           method: 'post',
-          url: 'http://localhost:3000/sdk/apiKey/check',
+          url: 'http://15.206.72.164/sdk/apiKey/check',
           headers: { 
             'api-key': apiKey, 
           },

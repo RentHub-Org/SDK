@@ -1,3 +1,3 @@
-import Flux from "./flux/flux";
+import RentHub from "./hub/hub";
 
-export default Flux;
+export default RentHub;

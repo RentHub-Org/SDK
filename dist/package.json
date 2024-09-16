@@ -1,7 +1,7 @@
 {
-    "name": "@ellumina/flux",
-    "version": "2.0.0",
-    "description": "The one stop sdk compatible with the flux official calls.",
+    "name": "@ellumina/renthub-btfs",
+    "version": "2.2.0",
+    "description": "The one stop sdk compatible with the RentHub's official calls.",
     "main": "lib/es5/index.js",
     "module": "lib/es6/index.js",
     "sideEffects": false,
@@ -16,7 +16,7 @@
       "README.md",
       "CHANGELOG.md"
     ],
-    "keywords": ["flux", "btfs", "sdk"],
+    "keywords": ["RentHub", "btfs", "sdk"],
     "author": "priyanshu",
     "license": "MIT",
     "dependencies": {

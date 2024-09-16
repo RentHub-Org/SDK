@@ -16,7 +16,7 @@ export default class Rental {
 
       var config = {
         method: 'post',
-        url: 'http://localhost:3000/sdk/rental',
+        url: 'http://15.206.72.164/sdk/rental',
         headers: { 
           'api-key': this.apiKey, 
           ...data.getHeaders()
@@ -37,7 +37,7 @@ export default class Rental {
       }
       var config = {
         method: 'post',
-        url: 'http://localhost:3000/sdk/rental/pinJson',
+        url: 'http://15.206.72.164/sdk/rental/pinJson',
         headers: { 
           'api-key': this.apiKey, 
         },
