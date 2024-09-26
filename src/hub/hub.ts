@@ -18,7 +18,7 @@ export default class RentHub {
     public async verifyKey(apiKey: string): Promise<any> {
         var config = {
           method: 'post',
-          url: 'http://15.206.72.164/sdk/apiKey/check',
+          url: 'https://be.renthub.cloud/sdk/apiKey/check',
           headers: { 
             'api-key': apiKey, 
           },

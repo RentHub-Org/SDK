@@ -1,6 +1,6 @@
 {
     "name": "@ellumina/renthub-btfs",
-    "version": "2.2.0",
+    "version": "3.0.0",
     "description": "The one stop sdk compatible with the RentHub's official calls.",
     "main": "lib/es5/index.js",
     "module": "lib/es6/index.js",
@@ -16,13 +16,12 @@
       "README.md",
       "CHANGELOG.md"
     ],
-    "keywords": ["RentHub", "btfs", "sdk"],
+    "keywords": ["RentHub", "btfs", "sdk", "cloud"],
     "author": "priyanshu",
     "license": "MIT",
     "dependencies": {
       "axios": "^1.7.7",
       "formdata": "^0.10.4",
-      "fs": "^0.0.1-security",
       "stream": "^0.0.3",
       "typescript": "^5.5.4"
     }
